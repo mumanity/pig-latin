@@ -1,0 +1,15 @@
+GIT
+  remote: https://github.com/mumanity/pig-latin.git
+  revision: 57e361e61c14856aeb53a1d3545205538b8270cf
+  specs:
+    pig_latin (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pig_latin!

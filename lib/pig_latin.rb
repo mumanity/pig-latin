@@ -2,7 +2,7 @@ require "pig_latin/version"
 
 module PigLatin
 
-  def translate(input)
+  def self.translate(input)
     vowel = ['a', 'e', 'i', 'o', 'u']
     array = input.split('')
     if vowel.include?(array[0])
@@ -28,11 +28,12 @@ module PigLatin
     end
   end
 
-  def create_input(input)
+  def self.create_input(input)
     array = input.split(' ')
     array.map do |x|
         print translate(x) + ' '
     end
+    puts ""
   end
 
 end
